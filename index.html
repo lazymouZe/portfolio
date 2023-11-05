@@ -1,0 +1,1020 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <div id="eng-lan" style="display: none;">
+      <nav id="desktop-nav">
+        <div class="logo">Htet Aung Hlaing</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+            <li id="eng-switch" > <a href="#" onclick="engLanguage()">
+              English </a>
+          </li>
+          <li id="jp-switch"><a href="#" onclick="jpLanguage()">
+               Japanese</a>
+          </li>
+            
+             
+          
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">Htet Aung Hlaing</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
+        </div>
+      </nav>
+      <section id="profile">
+        <div class="section__pic-container">
+          <img src="./assets/id_pf.jpg" alt="htet aung hlaing profile picture" />
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">Hello, I'm</p>
+          <h1 class="title">Htet Aung Hlaing</h1>
+          <p class="section__text__p2">Web Developer</p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/履歴書-HAH.pdf')"
+            >
+              Download CV
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+              Contact Info
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://linkedin.com/'"
+            />
+            <img
+              src="./assets/github.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/'"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+          <!-- <div class="section__pic-container">
+            <img
+              src="./assets/id_pf2.jpg"
+              alt="Profile picture"
+              class="about-pic"
+            />
+          </div> -->
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="./assets/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>Experience</h3>
+                <p>1+ years <br />Web Development</p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./assets/education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>Education</h3>
+                <p>BSC(Hons) Bachelors Degree<br />MB English Bachelors Degree</p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                Hello, I'm Htet Aung Hlaing. Front-end developers, web developers, software developers. Have more than 1 year of work experience. I am well-versed in front-end technologies with a focus on HTML, CSS, and JavaScript. I keep an eye on the latest web standards and trends and actively learn new tools and frameworks to provide the best experience for my users. doing. I am also familiar with back-end technology centered on Wordpress (custom) and back-end technology centered on Java and PHP.
+                I have front-end and back-end web development experience and have been through all stages of the development cycle for dynamic web projects. It's my mission to understand user rights and provide a great user experience based on them.
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+      <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">Web Development</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>HTML</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>CSS</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>React Js &nbsp; &nbsp; &nbsp;</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JavaScript</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>TypeScript</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                
+              </div>
+              <div class="article-container" style="margin-top: 40px;">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>MySQL</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>PHP</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Java &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Spring</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Laravel</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                
+              </div>
+              <div class="article-container" style="margin-top: 40px;">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>GitHub &nbsp;&nbsp;&nbsp;</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Wordpress</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>MsWord &nbsp; &nbsp; &nbsp; </h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>MsExcel</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Bootstrap</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                
+              </div>
+            </div>
+         
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+      </section>
+      <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/pj_1.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Ace Inspiration</h2>
+              <div class="btn-container">
+               
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='http://aceinspiration.com/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/pj_2.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">MakeSence Ent</h2>
+              <div class="btn-container">
+               
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://makesenseent.business.site/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/pj_3.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">VeVa Market</h2>
+              <div class="btn-container">
+                
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.vevamarket.com/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+  
+            
+  
+  
+          </div>
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/pj_4.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">GreenPindaya</h2>
+              <div class="btn-container">
+               
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.greenpindaya.com/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/pj_5.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">SimpleZ</h2>
+              <div class="btn-container">
+               
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='http://simplez.net/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/pj_6.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Rakuten</h2>
+              <div class="btn-container">
+                
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.rakuten.co.jp/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+  
+            
+  
+  
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+      <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:htetaunghlaing.lzm@gmail.com">htetaunghlaing.lzm@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/htet-aung-hlaing-278715210/">www.linkedin.com/hah</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/ph.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="tel:09068768613">09068768613</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/line.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://line.me/ti/p/3v-mWOugDN?fbclid=IwAR17cIQY21RYvmxYAtdlP_xYoIYFy75eI0DuOped8NIfvTcXQ-60qtZCgqo">https://line.me/ti/p/3v</a></p>
+          </div>
+        </div>
+        
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright &#169; 2023 Htet Aung Hlaing. All Rights Reserved.</p>
+      </footer>
+    </div>
+    <div id="jp-lan" style="display: block;">
+      <nav id="desktop-nav">
+        <div class="logo">ダ　アウン　ライン</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="#about">私について</a></li>
+            <li><a href="#experience">経験</a></li>
+            <li><a href="#projects">プロジェクト</a></li>
+            <li><a href="#contact">連絡先</a></li>
+            <li id="eng-switch" > <a href="#" onclick="engLanguage()">
+              英語 </a>
+          </li>
+          <li id="jp-switch"><a href="#" onclick="jpLanguage()">
+               日本語</a>
+          </li>
+            
+             
+          
+          </ul>
+        </div>
+      </nav>
+      <nav id="hamburger-nav">
+        <div class="logo">ダ　アウン　ライン</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">私のこと</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">経験</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">プロジェク</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">連絡先</a></li>
+          </div>
+        </div>
+      </nav>
+      <section id="profile">
+        <div class="section__pic-container">
+          <img src="./assets/id_pf.jpg" alt="htet aung hlaing profile picture" />
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">こんにちは！</p>
+          <h1 class="title">ダ　アウン　ライン</h1>
+          <p class="section__text__p2">ウェブ開発者</p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/履歴書-HAH.pdf')"
+            >
+              履歴書　ダウンロード
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+              連絡先
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://linkedin.com/'"
+            />
+            <img
+              src="./assets/github.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/'"
+            />
+          </div>
+        </div>
+      </section>
+      <section id="about">
+        <p class="section__text__p1"></p>
+        <h1 class="title">私について</h1>
+        <div class="section-container">
+         
+          <div class="about-details-container">
+            <div class="about-containers">
+              <div class="details-container">
+                <img
+                  src="./assets/experience.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <h3>経験</h3>
+                <p>1年以上の経験 <br />ウェブ開発</p>
+              </div>
+              <div class="details-container">
+                <img
+                  src="./assets/education.png"
+                  alt="Education icon"
+                  class="icon"
+                />
+                <h3>教育</h3>
+                <p>ビジネス情報技術<br />MB English Bachelors Degree</p>
+              </div>
+            </div>
+            <div class="text-container">
+              <p>
+                こんにちは、私は　ダ　アウン　 ラインです。フロントエンド開発者、ウェブ開発者、ソフトウェア開発者です。1年間以上の仕事の経験があります。私はHTML、CSS、JavaScriptを中心としたフロントエンド技術に精通しています。最新のウェブ標準やトレンドに常に目を向け、ユーザーにとって最高の体験を提供するために新しいツールやフレームワークを積極的に学習しています。Wordpress(カスタム)を中心としたバックエンド技術とJava と PHPを中心としたバックエンド技術にも精通しています。
+                私はフロントエンドとバックエンドの Web 開発の経験があり、動的 Web プロジェクトの開発サイクルのすべての段階を経験しました。私は使いやすく美しいインターフェースを作り出すことに喜びを感じます。ユーザーのニーズと要件を理解し、それに基づいて優れたユーザーエクスペリエンスを提供することが私の使命です。
+              </p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#experience'"
+        />
+      </section>
+      <section id="experience">
+        <p class="section__text__p1"></p>
+        <h1 class="title">経験</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <h2 class="experience-sub-title">ウェブ開発者</h2>
+              <div class="article-container">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>HTML</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>CSS</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>React Js &nbsp; &nbsp; &nbsp;</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>JavaScript</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>TypeScript</h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                
+              </div>
+              <div class="article-container" style="margin-top: 40px;">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>MySQL</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>PHP</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Java &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Spring</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Laravel</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                
+              </div>
+              <div class="article-container" style="margin-top: 40px;">
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>GitHub &nbsp;&nbsp;&nbsp; </h3>
+                    <p>Basic</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Wordpress</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>MsWord &nbsp; &nbsp; &nbsp; </h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>MsExcel</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="./assets/checkmark.png"
+                    alt="Experience icon"
+                    class="icon"
+                  />
+                  <div>
+                    <h3>Bootstrap</h3>
+                    <p>Intermediate</p>
+                  </div>
+                </article>
+                
+              </div>
+            </div>
+         
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#projects'"
+        />
+      </section>
+      <section id="projects">
+        <p class="section__text__p1"></p>
+        <h1 class="title">プロジェクト</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/pj_1.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Ace Inspiration</h2>
+              <div class="btn-container">
+               
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='http://aceinspiration.com/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/pj_2.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">MakeSence Ent</h2>
+              <div class="btn-container">
+               
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://makesenseent.business.site/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/pj_3.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">VeVa Market</h2>
+              <div class="btn-container">
+                
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.vevamarket.com/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+  
+            
+  
+  
+          </div>
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/pj_4.png"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">GreenPindaya</h2>
+              <div class="btn-container">
+               
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.greenpindaya.com/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/pj_5.png"
+                  alt="Project 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">SimpleZ</h2>
+              <div class="btn-container">
+               
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='http://simplez.net/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/pj_6.png"
+                  alt="Project 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Rakuten</h2>
+              <div class="btn-container">
+                
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="location.href='https://www.rakuten.co.jp/'"
+                >
+                  Live Demo
+                </button>
+              </div>
+            </div>
+  
+            
+  
+  
+          </div>
+        </div>
+        <img
+          src="./assets/arrow.png"
+          alt="Arrow icon"
+          class="icon arrow"
+          onclick="location.href='./#contact'"
+        />
+      </section>
+      <section id="contact">
+        <p class="section__text__p1"></p>
+        <h1 class="title">連絡先</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:htetaunghlaing.lzm@gmail.com">htetaunghlaing.lzm@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com/in/htet-aung-hlaing-278715210/">www.linkedin.com/hah</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/ph.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="tel:09068768613">09068768613</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/line.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://line.me/ti/p/3v-mWOugDN?fbclid=IwAR17cIQY21RYvmxYAtdlP_xYoIYFy75eI0DuOped8NIfvTcXQ-60qtZCgqo">https://line.me/ti/p/3v</a></p>
+          </div>
+        </div>
+        
+      </section>
+      <footer>
+        <nav>
+          <div class="nav-links-container">
+            <ul class="nav-links">
+              <li><a href="#about">私について</a></li>
+              <li><a href="#experience">経験</a></li>
+              <li><a href="#projects">プロジェクト</a></li>
+              <li><a href="#contact">連絡先</a></li>
+            </ul>
+          </div>
+        </nav>
+        <p>Copyright &#169; 2023 Htet Aung Hlaing. All Rights Reserved.</p>
+      </footer>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
